@@ -1,0 +1,104 @@
+<!--modal layout-->
+    <div class="modal">
+        <div class="modal__overlay"></div>  <!--overlay: lớp phủ-->
+        <div class="modal__body">
+            <!--all Đăng ký và Đăng nhập-->
+            <!--Dăng ky -->
+            <div class="auth--form">
+                <div class="auth--form__container">
+                    <!--Phần header-->
+                    <div class="auth--form__header">
+                        <h3 class="auth--form__heading">Đăng ký</h3>
+                        <span class="auth--form__switch--btn">Đăng nhập</span>
+                    </div>
+
+                    <!--Phần body input-->
+                    <div class="auth--form__form">
+                        <div class="auth--form__group">
+                            <input type="text" class="auth--form__input" placeholder="Nhập email">
+                        </div>
+                        <div class="auth--form__group">
+                            <input type="password" class="auth--form__input" placeholder="Mật khẩu">
+                        </div>
+                        <div class="auth--form__group">
+                            <input type="password" class="auth--form__input" placeholder="Nhập lại Mật khẩu">
+                        </div>
+                    </div>
+
+                    <!--policy-->
+                    <div class="auth--form__policy"> <!--policy: chính sách-->
+                        <p class="auth--form__policy--content">
+                            Bằng việc đăng ký, bạn đã đồng ý với Shopee về <a class="auth--form__policy--link">Điều khoản dịch vụ</a> &
+                            <a class="auth--form__policy--link">Chính sách bảo mật</a> 
+                        </p>
+                    </div>
+
+                    <!--Nút điều khiên-->
+                    <div class="auth--form__controls">  <!--controls: điều khiển-->
+                        <button class="btn auth--form__controls--back">Trở lại</button>
+                        <button class="btn btn--primary">Đăng ký</button>  <!--parimary: sơ đẳng (chính)-->
+                    </div>
+                </div>
+
+                <!--social: xã hội, nút xã hội-->
+                <div class="socials">
+                    <a href="" class="socials--fb btn btn--with--icon">
+                        <i class="fa-brands fa-square-facebook"></i>
+                        Kết nối với Facebook
+                    </a>
+                    <a href="" class="socials--gg btn btn--with--icon">
+                        <i class="fa-brands fa-google"></i>
+                        Kết nói với Google
+                    </a>
+                </div>
+            </div>
+            
+            <!--đăng nhập-->
+            <div class="auth--form">
+                <div class="auth--form__container">
+                    <!--Phần header-->
+                    <div class="auth--form__header">
+                        <h3 class="auth--form__heading">Đăng nhập</h3>
+                        <span class="auth--form__switch--btn">Đăng ký</span>
+                    </div>
+
+                    <!--Phần body input-->
+                    <div class="auth--form__form">
+                        <div class="auth--form__group">
+                            <input type="text" class="auth--form__input" placeholder="Nhập email">
+                        </div>
+                        <div class="auth--form__group">
+                            <input type="password" class="auth--form__input" placeholder="Mật khẩu">
+                        </div>
+                    </div>
+
+                    <!--quên mật khẩu, trợ giúp-->
+                    <div class="auth--form__policy--aside"> 
+                        <div class="auth--form__hepl">
+                            <a href="" class="auth--form__hepl--link auth--form__hepl--forgot">Quên mật khẩu</a>
+                            <span class="auth--form__hepl--separation"></span> <!--separation: phân cách-->
+                            <a href="" class="auth--form__hepl--link auth--form__hepl">Cần trợ giúp</a>
+                        </div>
+                    </div>
+
+                    <!--Nút điều khiên-->
+                    <div class="auth--form__controls">  <!--controls: điều khiển-->
+                        <button class="btn auth--form__controls--back">Trở lại</button>
+                        <button class="btn btn--primary">Đăng nhập</button>  <!--parimary: sơ đẳng (chính)-->
+                    </div>
+                </div>
+
+                <!--social: xã hội, nút xã hội-->
+                <div class="socials">
+                    <a href="" class="socials--fb btn btn--with--icon">
+                        <i class="fa-brands fa-square-facebook"></i>
+                        Đăng nhập với Facebook
+                    </a>
+                    <a href="" class="socials--gg btn btn--with--icon">
+                        <i class="fa-brands fa-google"></i>
+                        Đăng nhập với Google
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>

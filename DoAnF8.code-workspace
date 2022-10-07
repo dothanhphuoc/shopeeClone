@@ -1,0 +1,31 @@
+{
+	"folders": [
+		{
+			"path": "..\\Front_end\\DoAnF8"
+		},
+		{
+			"path": "..\\web_html_css"
+		},
+		{
+			"path": "..\\Brand_name"
+		},
+		{
+			"path": "..\\May_tinh(calculator)"
+		},
+		{
+			"path": "..\\Do_an_dau_tien"
+		},
+		{
+			"path": "..\\demo"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\responsive"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "web_shopee"
+	}
+}
